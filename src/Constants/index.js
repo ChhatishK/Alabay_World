@@ -41,28 +41,28 @@ export default ROAD_MAP;
 export const IMAGES =  [img1, img2, img3, img4, img5, img6, img7];
 
 export const MERCHANDISE = [
-    img1 = {
+     {
         desc : "Community Building and Initial Launch",
         img: img6,
         gradient: `bg-gradient-to-b from-[#DBC70C] to-[#FFF28000]`,
         borderRadius: `rounded-tl-xl`,
         linearGradient: `bg-gradient-to-t from-[#FFFFFF] to-[#FFFFFF00]`
     },
-    img2 = {
+    {
         desc : "Merchandise Store Launch",
         img: img5,
         gradient: `bg-gradient-to-b from-[#00D4D4] to-[#41FFFF00] `,
         borderRadius: `rounded-b-xl`,
         linearGradient: `bg-gradient-to-t from-[#FFFFFF] to-[#FFFFFF00]`
     },
-    img3 = {
+    {
         desc : "Community Events and contests",
         img: img4,
         gradient: `bg-gradient-to-b from-[#D427FF] to-[#D427FF00]`,
         borderRadius: `rounded-b-xl`,
         linearGradient: `bg-gradient-to-t from-[#FFFFFF] to-[#FFFFFF00]`
     },
-    img4 = {
+    {
         desc : "Expansion and New Features",
         img: img7,
         gradient: `bg-gradient-to-b from-[#8F3A3C] to-[#8F3A3C00]`,
