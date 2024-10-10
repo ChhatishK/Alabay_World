@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "CHEESEBURGA";
+    src: url("./fonts/cheeseburga/CHEESEBURGA\ demo.ttf");
+}
+
+body {
+    font-family: "CHEESEBURGA", serif;
+}
+
+.custom-shadow {
+    -webkit-text-stroke: 3px black;
+}
+
+.bg-radial {
+    background: radial-gradient(#FFF280, #FFC700);
+}
+
+.font-montserrat {
+    font-family: "Montserrat", sans;
+}
+
+.font-sans {
+    font-family: "Kumbh Sans", sans;
+}
+
+.customScrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.customScrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 16px;
+}
+
+.customScrollbar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+}
+.customScrollbar::-webkit-scrollbar-thumb:hover {
+    background: #525252;
+}
+
+.shadow {
+    box-shadow: 8px 9px 19px 0px #000000A6;
+}
+
+.sidebg {
+    position: relative;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.sidebg::before {
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    left: -10px;
+    right: 0;
+    width: 100% + 300px;
+    height: 150px;
+    background: white;
+    rotate: 2deg;
+    z-index: -10;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.beforebg{
+    position: relative;
+    overflow: hidden;
+}
+
+.beforebg::after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    right: 0;
+    top: -90px;
+    width: 100% + 300px;
+    height: 300px;
+    background: white;
+    rotate: -2deg;
+    z-index: -2;
+}
+.mirrored-shadow {
+    position: relative;
+    display: inline-block;
+}
+
+.mirrored-shadow::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: inherit;
+    transform: scaleY(-1); 
+    filter: blur(1px);
+    opacity: 0.5;
+}
