@@ -71,7 +71,6 @@ export const MERCHANDISE = [
     }
 ]
 
-
 // let MER1, MER2, MER3, MER4;
 export const MERCHANDISES = [
     {
